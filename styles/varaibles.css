@@ -1,0 +1,23 @@
+:root {
+    --accent-color: #FF4343;
+    --accent-color-hover: #E71414;
+    --light-color: #C6CBCD;
+    --darked-text-color: #2D3033;
+    --dark-text-color: #000000;
+    --simple-text-color: #6C7279;
+    --light--text-color: #FFFFFF;
+    --light-bg-color: #FFFFFF;
+    --darked-bg-color: #353C65;
+    --dark-bg-color: #2C3154;
+    --large-font-size: 64px;
+    --bigger-font-size: 36px;
+    --simple-font-size: 24px;
+    --smaller-font-size: 18px;
+    --small-font-size: 13px;
+}
+
+/* @media (max-width: 768px) {
+    :root {
+        
+    }
+} */

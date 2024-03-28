@@ -1,0 +1,76 @@
+.team_member__avatar{
+    width: 270px;
+    height: 270px;
+    background-size: 270px 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.woods_avatar{
+    background-image: url("./../assets/img/Rectangle\ 1.png")
+}
+
+.reed_avatar{
+    background-image: url("./../assets/img/Rectangle\ 2.png")
+}
+
+.vladez_avatar{
+    background-image: url("./../assets/img/Rectangle\ 3.png")
+}
+
+.little_avatar{
+    background-image: url("./../assets/img/Rectangle\ 4.png")
+}
+
+.team_member{
+    flex-basis: calc(100% / 4 - 30px);
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.team_wrapper{
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+}
+
+.team_member__name{
+    color: var(--dark-text-color);
+    font-weight: 700;
+    font-size: var(--simple-font-size);
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.team_member__position{
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: var(--simpller-font-size);
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.team_member__about{
+    color: var(--darked-text-color);
+    font-weight: 400;
+    font-size: var(--smaller-font-size);
+}
+
+.team_member__social_icon{
+    width: 39px;
+    height: 39px;
+    background-size: 39px 39px;
+    background-repeat: no-repeat;
+}
+
+.team_member__social{
+    display: flex;
+    align-self: flex-start;
+    gap: 5px;
+    margin-top: 35px;
+}
+

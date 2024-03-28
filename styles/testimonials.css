@@ -1,0 +1,36 @@
+.testimonials{
+    display: flex;
+    width: 100%;
+}
+
+.testimonials__img{
+    background-image: url("./../assets/img/testimonials.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+}
+
+.testimonials__info{
+    width: 770px;
+    padding: 100px;
+    background-color: rgba(92, 50, 73, 1);
+}
+
+.testimonials__quotation{
+    font-family: "Cardo", serif;
+    font-style: italic;
+    color: var(--light--text-color);
+    font-weight: 400;
+    font-size: var(--bigger-font-size);
+    line-height: 56px;
+}
+
+.testimonials__author{
+    text-transform: uppercase;
+    color: var(--light--text-color);
+    font-size: var(--small-font-size);
+    font-weight: 700;
+    margin-top: 20px;
+}
+

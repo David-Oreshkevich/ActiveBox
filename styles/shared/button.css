@@ -1,0 +1,19 @@
+.simple_btn{
+    color: var(--light--text-color);
+    padding: 25px 100px;
+    font-size: var(--simple-font-size);
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: var(--accent-color);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.simple_btn:hover{
+    background-color: var(--accent-color-hover);
+}
+
+.simple_btn:active{
+    box-shadow: 4px 4px 30px 0px var(--accent-color);
+}

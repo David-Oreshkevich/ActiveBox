@@ -1,0 +1,63 @@
+.card__img {
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.costamised{
+     background-image: url("./../assets/icons/icon_1.svg");
+}
+
+.ready{
+    background-image: url("./../assets/icons/icon_2.svg")
+}
+
+.design{
+    background-image: url("./../assets/icons/icon_3.svg")
+}
+
+.code{
+    background-image: url("./../assets/icons/icon_4.svg")
+}
+
+.ship{
+    background-image: url("./../assets/icons/icon_5.svg")
+}
+
+.download_img{
+    background-image: url("./../assets/icons/icon_6.svg")
+}
+
+.cards_wrapper{
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: calc(100% / 3 - 30px);
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.card__title{
+    color: var(--dark-text-color);
+    font-weight: 900;
+    font-size: var(--simple-font-size);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card__text{
+    color: var(--darked-text-color);
+    font-weight: 400;
+    font-size: var(--smaller-font-size);
+    text-align: center;
+}
+

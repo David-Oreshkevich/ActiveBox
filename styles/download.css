@@ -1,0 +1,19 @@
+.download__info {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download__title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: var(--bigger-font-size);
+}
+
+.download__subtitle {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: var(--smaller-font-size);
+  text-transform: uppercase;
+}
